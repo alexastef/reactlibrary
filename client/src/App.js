@@ -16,7 +16,7 @@ function App() {
       <Switch>
         <main>
           <Route exact path="/saved" component={Saved} />
-          <Route path="/" component={Home} />
+          <Route exact path="/" component={Home} />
         </main>
       </Switch>
     </Router>
